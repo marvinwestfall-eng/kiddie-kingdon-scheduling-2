@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+  background-color: #FDF8F3;
+  margin: 0;
+  padding: 0;
+  color: #1A1A1A;
+}
+
+.brutal-border {
+  border: 4px solid #1A1A1A;
+  box-shadow: 8px 8px 0px 0px #1A1A1A;
+}
+
+.brutal-border-sm {
+  border: 3px solid #1A1A1A;
+  box-shadow: 4px 4px 0px 0px #1A1A1A;
+}
+
+.huge-text {
+  font-size: clamp(3rem, 15vw, 8rem);
+  line-height: 0.8;
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+}
+
+.tab-active {
+  background-color: #1A1A1A;
+  color: #FDF8F3;
+}
+
+.role-row {
+  border-bottom: 2px solid #1A1A1A;
+}
+
+.status-tag {
+  padding: 2px 8px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  border: 2px solid #1A1A1A;
+}
